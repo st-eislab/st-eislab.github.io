@@ -1,0 +1,29 @@
+- name: Computer Language
+  major: ITM
+  semester: Spring
+  description: This module is an introduction to computer science and programming as a means for solving problems. The module starts with the most basic programming concepts and gradually works its way to advanced object-oriented techniques. This module focuses on Object Oriented Programming using Java.
+
+- name: Web Programming
+  major: ITM
+  semester: Spring
+  description: In this module, students will learn the fundamentals of web development. It delves into the design and implementation of web apps with Python, JavaScript, basic SQL using frameworks like Django, React, and Bootstrap.  Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub. By semester’s end, students will have the knowledge and experience in principles, languages, and tools that empower them to design and deploy modern web applications on the Internet.
+
+- name: Business Process Management
+  major: ITM
+  semester: Fall
+  description: This module aims to provide a thorough understanding of BPM concepts, methods, and tools. The objectives include enabling students to master the identification, modeling, analysis, redesign, and monitoring of business processes. The course emphasizes a process-oriented view of organizational workflows and the importance of continuous process improvement to optimize efficiency and effectiveness. Students will learn to use BPMN for process modeling, apply qualitative and quantitative analysis techniques, and monitor processes for ongoing improvement with Process Mining.
+
+- name: Opensource Software
+  major: ITM
+  semester: Fall
+  description: This module provides a comprehensive exploration of open source software development, focusing on its history, philosophy, and practical implementation. Students will learn how to initiate and manage open source projects, including the selection and application of appropriate licenses as well as the economics behind open source. The course covers the technical infrastructure necessary for open source projects, such as version control systems, bug trackers, and communication tools. The course also cover the basics of some important OSS tools, Git and GitHub among others. By the end of the course, students will be equipped to contribute to and lead open source projects, ensuring they are well-versed in both the theoretical and practical aspects of OSS development.
+
+- name: Business Analytics
+  major: Data Science
+  semester: Spring
+  description: This course offers a comprehensive introduction to process mining techniques, covering key areas such as automated process discovery, conformance checking, performance analysis, business rules mining, and predictive process monitoring. To build proficiency in these methods, we will explore practical tools like Apromore and various Python libraries, applying them to real-world datasets to address business questions effectively.
+
+- name: Data Analysis for Eelctronic Manufacturing
+  major: Data Science
+  semester: Fall
+  description: In this course, students will learn the basics of data analysis methodologies to take the most effective decisions based on various types of electronic manufacturing data. In addition, several tasks are carried out using real manufacturing data, to analyze and solve common industrial problems.

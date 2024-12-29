@@ -66,10 +66,13 @@ body {
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 0.9375rem;
   font-weight: 400;
-  line-height: 1.5;
-  color: #fff;
+  line-height: 1.5;  
   text-align: left;
-  background-color: #222;
+  //background-color: #222;
+  // color: #fff;
+  background-color: #fff;
+  color: #555;
+
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -91,6 +94,24 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+//eis
+#footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid transparent;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.panel {
+  margin-bottom: 22px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05)
 }
 
 abbr[title],
@@ -5039,6 +5060,75 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7
+}
+
+.navbar-default .navbar-brand {
+  color: #333
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #333;
+  background-color: transparent
+}
+
+.navbar-default .navbar-text {
+  color: #555
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #999
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #333;
+  background-color: transparent
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #333;
+  background-color: transparent
+}
+
+.navbar-default .navbar-nav>.disabled>a,
+.navbar-default .navbar-nav>.disabled>a:hover,
+.navbar-default .navbar-nav>.disabled>a:focus {
+  color: #eee;
+  background-color: transparent
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #eee
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #999
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  background-color: transparent;
+  color: #333
+}
+
+
 .card {
   position: relative;
   display: -webkit-box;
@@ -5599,12 +5689,22 @@ a.badge-dark:focus, a.badge-dark.focus {
           box-shadow: 0 0 0 0.2rem rgba(48, 48, 48, 0.5);
 }
 
-.jumbotron {
+/* .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #303030;
+  //background-color: #303030;
+  background-color: #fafafa;
   border-radius: 0.3rem;
+} */
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #fafafa
 }
+
 
 @media (min-width: 576px) {
   .jumbotron {
@@ -7180,7 +7280,8 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #adb5bd !important;
+  // background-color: #adb5bd !important;
+  background-color:#f8f8f8 !important; //eis
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -7191,6 +7292,7 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #303030 !important;
+  
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10973,3 +11075,4 @@ a.text-dark:hover, a.text-dark:focus {
 .list-group-item-action .list-group-item-heading {
   color: #fff;
 }
+

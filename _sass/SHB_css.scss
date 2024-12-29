@@ -3,10 +3,18 @@ img {
 }
 
 .jumbotron {
-    padding:20px; 
+/*     padding:20px; 
     padding-bottom:7px; 
     margin-top:22px; 
-    margin-bottom:22px;
+    margin-bottom:22px; */
+    min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05)
 }
 
 .navbar {
@@ -29,8 +37,33 @@ img {
   max-width: 800px;
   padding-left:  20px;
   padding-right: 20px;
+  
 }
 
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05)
+}
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15)
+}
+
+.well-lg {
+  padding: 24px;
+  border-radius: 5px
+}
+
+.well-sm {
+  padding: 9px;
+  border-radius: 2px
+}
 .well-collapse {
   padding-left:  20px;
   padding-right: 20px;
@@ -47,6 +80,13 @@ img {
     border-color: rgba(0,0,0,.15);
   }
 }
+
+.well {
+  border: 1px solid #e7e7e7;
+  -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05)
+}
+
 
 
 .embed-container-home {

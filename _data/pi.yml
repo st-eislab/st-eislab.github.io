@@ -1,17 +1,19 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
+- name: Dr. Josue Obregon
+  photo: obregon_portrait.jpg
+  info: Josue Obregon Assistant Professor, Seoul National University 
+  email: jobregon@seoultech.ac.kr
+  github: https://github.com/jobregon1212
   researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+  scholar: https://scholar.google.com/citations?user=KjvxM5gAAAAJ
+  # cv: cv/cv.pdf
+  interests: Rule-based systems XAI, Human-centered AI, Manufacturing Quality prediction, Renewable energy generation forecasting 
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(1942) Ph.D. Physics, Princeton University",
-      "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "(2020) Ph.D. Industrial & Mgmt. Systems Engineering, Kyung Hee University",
+      "(2014) M.Sc. Industrial & Mgmt. Systems Engineering, Kyung Hee University",
+      "(2011) B.S. Science and Systems Engineering, Universidad de San Carlos",
     ]
 
   educationshort:
-    ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+    ["(2020) Ph.D. Industrial Eng., Kyung Hee", "(2011) B.S. Computer Eng., USAC"]

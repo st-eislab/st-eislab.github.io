@@ -1,0 +1,27 @@
+- project_name: "Probabilistic Rule Extraction from Ensemble Trees"
+  goal: "Improve the speed of the RuleCOSI+ algorithm."
+  description: "This project focuses on extending the RuleCOSI+ algorithm to improve its speed and computational efficiency. Ensemble models, such as Random Forests or Gradient Boosted Trees, are powerful predictors, but they often lack interpretability. This project develops probabilistic methods to extract human-readable rules from these ensemble models while maintaining predictive performance. By enhancing the speed of rule extraction, this research aims to enable real-time applications of rule-based explanations in industries like manufacturing and healthcare. The project also explores optimizing trade-offs between accuracy and interpretability, ensuring the extracted rules are concise, actionable, and domain-relevant."
+  skills_used: ["Python", "Machine Learning", "Rule-based Systems"]
+  image_file: "rule_extraction.png"
+  show: true
+
+- project_name: "SOH Estimation of Lithium Batteries"
+  goal: "Accurate SOH estimation for partially charged lithium batteries."
+  description: "Lithium-ion batteries are critical in electric vehicles and renewable energy storage systems. This project aims to accurately estimate the State of Health (SOH) of lithium batteries, particularly in scenarios where they are only partially charged. By utilizing electrochemical impedance spectroscopy (EIS) data, the project seeks to develop models that can detect subtle changes in battery health. Unlike traditional SOH estimation techniques that require full charging cycles, this method works with partial state-of-charge data, making it more practical for real-world applications. The research contributes to enhancing the longevity and reliability of lithium batteries by providing early warnings of degradation and supporting predictive maintenance strategies."
+  skills_used: ["Python", "Battery Modeling", "Data Analysis"]
+  image_file: "lithium_battery.png"
+  show: true
+
+- project_name: "Solar Power Generation Estimation"
+  goal: "Enhance solar power estimation using advanced AI models."
+  description: "Accurate solar power generation forecasting is essential for integrating renewable energy into the grid. This project combines state-of-the-art transformer-based machine learning models with high-resolution cloud sky imagery to improve prediction accuracy. By analyzing meteorological data alongside visual imagery, the model can identify cloud patterns and weather conditions that influence solar irradiance. This approach bridges the gap between image-based weather analysis and numerical modeling, enabling robust predictions under diverse environmental conditions. The results aim to enhance grid reliability, optimize energy storage usage, and support the broader adoption of solar energy."
+  skills_used: ["Transformers", "Image Processing", "Python"]
+  image_file: "solar_power.png"
+  show: true
+
+- project_name: "Stacking LLM with Ensembles and Rulesets"
+  goal: "Generate adaptive text explanations for diverse users."
+  description: "Large Language Models (LLMs) like LLaMA are increasingly being used to generate natural language explanations. This project integrates LLMs with ensemble machine learning models and rule-based systems to create adaptive explanations tailored to various end users, such as operators, managers, or domain experts. The research explores how to align technical insights from ensemble models with human-friendly language while maintaining accuracy and relevance. By stacking ensembles and rulesets with LLMs, the system can dynamically adjust explanations based on the user's expertise level, context, and preferences. The goal is to enhance transparency and usability in complex decision-making systems, particularly in manufacturing and healthcare."
+  skills_used: ["Python", "Natural Language Processing", "Explainable AI"]
+  image_file: "llm_explanations.png"
+  show: true

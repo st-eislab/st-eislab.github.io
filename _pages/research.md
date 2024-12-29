@@ -32,10 +32,16 @@ iframe {
 
 ## Research
 
-<div class="jumbotron">
+{% for project in site.data.research %}
+<div class="well">
 <div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
+<h4>{{ project.project_name }}</h4>
 
-Example description
+<p><strong>Goal:</strong> {{ project.goal }}</p>
+<p><strong>Description:</strong> {{ project.description }}</p>
+<p><strong>Skills Used:</strong> {{ project.skills_used | join: ', ' }}</p>
+
+   
 </div>
 </div>
+ {% endfor %}

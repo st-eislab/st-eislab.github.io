@@ -1,15 +1,15 @@
 ---
-title: "About"
+title: "Professor"
 layout: gridlay
 sitemap: false
-permalink: /about/
+permalink: /professor/
 ---
 
-## About
+## Professor
 
 {% for member in site.data.pi %}
 
-<div class="jumbotron">
+<div class="well">
 <div class="row">
 <div class="col-sm-4">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
@@ -34,6 +34,7 @@ permalink: /about/
 </div>
 {% endfor %}
 
+<!--
 {% if site.data.grants %}
 
 <div class="jumbotron">
@@ -47,7 +48,6 @@ permalink: /about/
 {% endif %}
 
 {% if site.data.awards %}
-
 <div class="jumbotron">
   <h3>Awards</h3>
   <ul>
@@ -57,10 +57,10 @@ permalink: /about/
   </ul>
 </div>
 {% endif %}
-
+-->
 {% if site.data.people %}
 
-<div class="jumbotron">
+<div class="well">
   <h3>Students and Mentoring</h3>
   <ul>
     {% for student in site.data.people %}

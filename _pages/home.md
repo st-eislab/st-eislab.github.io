@@ -5,28 +5,34 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+### Welcome to EIS Lab
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+At the Explainable Intelligent Systems Laboraotry **(EIS Lab)**, we are dedicated to advancing the boundaries of artificial intelligence and machine learning in industrial applications.  
+Our mission is to create intelligent systems that are not only powerful but also transparent, explainable, and tailored to real-world needs.  
+Whether you're an academic, industry professional, or student, we invite you to explore our work and join us in building the future of human-centered AI.
 
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
+<img src="{{ site.url }}{{ site.baseurl }}/images/XAI methods.png" width="100%"/><br/>
+Different types of XAI methods to uncover the decision mechanismos of black-box machine learning methods.
 </center>
 </div>
 </div>
 <br/>
 
-### About me
+### About Us 
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+The **Explainable Intelligent Systems (EIS) Laboratory** at **Seoul National University of Science and Technology (SeoulTech)** is committed to pioneering research in Explainable Artificial Intelligence (XAI) applied but not limited to: smart manufacturing and smart energy systems.  
+
+Our work aims to bridge the gap between complex AI technologies and the practical needs of industries, enabling trustworthy, actionable insights for decision-making.  
+
+#### We specialize in:
+- **Explainable AI (XAI):** Enhancing the transparency of predictive models.
+- **Human-Centered Design:** Developing systems that prioritize the needs of diverse users.
+- **Smart Manufacturing:** Applying AI to optimize quality and operations.
+- **Energy Systems:** Predicting and managing renewable energy generation and battery health.  
+
+Our vision is to empower industries with innovative, transparent, and sustainable AI solutions.  
+
+

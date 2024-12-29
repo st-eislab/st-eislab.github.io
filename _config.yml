@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: EIS Lab
+email: jobregon@seoultech.ac.kr
+description: Homepage of the Explainable Intelligent Systems Lab at SeoulTech
 baseurl: ""
 url: ""
 
@@ -12,29 +12,26 @@ url: ""
 
 # Footer info
 affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
+  EIS Lab<br/>
+  Prof. Josue Obregon<br/>
+  SeoulTech
 
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  Seoul National University of Science and Technology<br/>
+  232 Gongneung-ro, Nowon-gu<br/>
+  Seoul, Republic of Korea
 
 contact: >
-  <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-  <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+  <a href="mailto:jobregon@seoultech.ac.kr" target="_blank" style="color:CornflowerBlue"><i class="fa fa-envelope fa-1x" style="color:CornflowerBlue"></i> Contact lab PI via email</a> <br/>
+  <a href="https://github.com/st-eislab/st-eislab.github.io" style="color:CornflowerBlue"><i class="fa fa-github fa-1x" style="color:CornflowerBlue"></i> Use this site as a template. </a>
 
 # Pages shown in navbar
-nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
+nav_pages:    
+  - name: members
   - name: research
-  - name: software
-  - name: team
+  - name: publications  
   - name: teaching
-  - name: blogs
+
 
 include:
   - .htaccess
@@ -69,7 +66,7 @@ scholar:
   locale: en
 
   source: /assets/
-  bibliography: ref.bib
+  bibliography: obregon2024.bib
   bibliography_template: bibtemplate
   sort_by: year, month
   order: descending
