@@ -9,7 +9,7 @@
    {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x" style="color:CornflowerBlue"></i></a> {% endif %}
    {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x" style="color:CornflowerBlue"></i></a> {% endif %}
    {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x" style="color:CornflowerBlue"></i></a> {% endif %}
-   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x" style="color:CornflowerBlue"></i></a> {% endif %}
+   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x" style="color:CornflowerBlue"></i></a> {% endif %}   
   </div>
   </center>
 
@@ -18,6 +18,8 @@
       <li>{{ education | replace: "-","&#8211;" }}</li>
     {% endfor %}
   </ul>
+  <h5> Office</h5>
+   {{member.office}}
 
 </div>
 {% endfor %}

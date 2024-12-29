@@ -23,7 +23,7 @@
   semester: Spring
   description: This course offers a comprehensive introduction to process mining techniques, covering key areas such as automated process discovery, conformance checking, performance analysis, business rules mining, and predictive process monitoring. To build proficiency in these methods, we will explore practical tools like Apromore and various Python libraries, applying them to real-world datasets to address business questions effectively.
 
-- name: Data Analysis for Eelctronic Manufacturing
+- name: Data Analysis for Electronic Manufacturing
   major: Data Science
   semester: Fall
   description: In this course, students will learn the basics of data analysis methodologies to take the most effective decisions based on various types of electronic manufacturing data. In addition, several tasks are carried out using real manufacturing data, to analyze and solve common industrial problems.

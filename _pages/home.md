@@ -15,7 +15,7 @@ Whether you're an academic, industry professional, or student, we invite you to 
 <div class="row">
 <center>
 <img src="{{ site.url }}{{ site.baseurl }}/images/XAI methods.png" width="100%"/><br/>
-Different types of XAI methods to uncover the decision mechanismos of black-box machine learning methods.
+Different types of XAI methods to uncover the decision mechanisms of black-box machine learning methods.
 </center>
 </div>
 </div>
