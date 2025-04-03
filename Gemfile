@@ -9,5 +9,6 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "observer"
+gem 'uri', '1.0.3'
 
 
