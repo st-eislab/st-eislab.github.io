@@ -1,15 +1,36 @@
 - name: Hayat Hassanpour
-  photo: hayat_portrait.jpg
-  info: Master Student, started Sep 2024
+  photo: members/hayat_portrait.jpg
+  info: First lab student, started Sep 2024
   interests: Zero Knowledge Proofs (ZKP), zkML & Blockchain data analytics
   email: hayyat@seoultech.ac.kr
   website: https://hayatt.vercel.app/
   github: https://github.com/hayat711
 
 - name: Jostin Jerico Rosal
-  photo: jostin_portrait.jpg
-  info: Master Student, started Sep 2024
+  photo: members/jostin_portrait.jpg
+  info: Started Sep 2024
   interests: Data Analytics, Fraud Detection
   email: rosal.jostinjerico@seoultech.ac.kr
   social: https://www.linkedin.com/in/jostinjerico/
   github: https://github.com/jostinjerico
+
+- name: Makweya Tobias 
+  photo: rock.jpg
+  info: Started Sep 2025
+  interests: Explainable AI
+  email: mail@gmail.com
+  github: https://github.com/MakweyaTobias
+
+- name: Shikha Kumari
+  photo: rock.jpg
+  info: Started Sep 2025
+  interests: Explainable AI
+  email: mail@gmail.com
+  github: https://github.com/shikhak28
+
+- name: Daria Kolotikhina (다리아)
+  photo: members/daria_portrait.jpg
+  info: Started Sep 2025
+  interests: Sustainable Energy, Smart Manufacturing
+  email: rdariakolotikhina@gmail.com
+  github: https://github.com/dariaklt

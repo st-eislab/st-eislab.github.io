@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
 {% for member in site.data.pi %}
 <div class="well">
    <center>
@@ -23,12 +23,12 @@
 
 </div>
 {% endfor %}
-</div>
+</div> -->
 
 <div class="well">
   <h4>News</h4>
 
-  {% for article in site.data.news limit:3 %}
+  {% for article in site.data.news limit:6 %}
   <b>{{ article.date }}</b>
     <p>{{ article.headline }}</p>
   {% endfor %}

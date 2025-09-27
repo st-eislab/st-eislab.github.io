@@ -17,16 +17,16 @@ Please sign up for this courses on the [University eclass website](https://eclas
 {% assign dsFallCourses = site.data.courses | where_exp: "course", "course.major=='Data Science' and  course.semester=='Fall'"  %}
 
 ### Spring Semester
-
+<div class="well">
+<div class="col-md-12 col-sm-12">
 #### ITM courses
 {% for course in itmSpringCourses %}
 
-<div class="well">
-<div class="col-md-12 col-sm-12">
+
 * {{course.name}}
     - {{course.description}}
-</div>
-</div>
+
+
 {% endfor %}
 
 
@@ -34,36 +34,32 @@ Please sign up for this courses on the [University eclass website](https://eclas
 
 {% for course in dsSpringCourses %}
 
-<div class="well">
-<div class="col-md-12 col-sm-12">
 * {{course.name}}
     - {{course.description}}
-</div>
-</div>
+
 {% endfor %}
+</div>
+</div>
 
 ### Fall Semester
+
+<div class="well">
+<div class="col-md-12 col-sm-12">
 
 #### ITM courses
 
 {% for course in itmFallCourses %}
 
-<div class="well">
-<div class="col-md-12 col-sm-12">
 * {{course.name}}
     - {{course.description}}
-</div>
-</div>
 {% endfor %}
 
 #### Data Science courses
 
 {% for course in dsFallCourses %}
 
-<div class="well">
-<div class="col-md-12 col-sm-12">
 * {{course.name}}
     - {{course.description}}
-</div>
-</div>
 {% endfor %}
+</div>
+</div>

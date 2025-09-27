@@ -1,5 +1,5 @@
 # Site settings
-title: EIS Lab
+title: EIS Lab @ SeoulTech
 email: jobregon@seoultech.ac.kr
 description: Homepage of the Explainable Intelligent Systems Lab at SeoulTech
 baseurl: ""
@@ -13,7 +13,7 @@ url: ""
 # Footer info
 affiliation: >
   EIS Lab<br/>
-  Prof. Josue Obregon<br/>
+  Hyesung Hall, Rm. 202 <br/>
   SeoulTech
 
 location: >  
@@ -80,8 +80,8 @@ scholar:
 
   query: "@*"
 
-  bibliography_list_attributes:
-    reversed: "reversed"
+#  bibliography_list_attributes:
+#    reversed: "reversed"
 
 exclude:
   - Gemfile
