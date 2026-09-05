@@ -1,0 +1,9 @@
+---
+title: "Research"
+toc: true
+toc-depth: 2
+---
+
+EIS Lab develops explainable intelligent systems through research in explainable AI, smart manufacturing, sustainable energy, process intelligence, and graph learning.
+
+{{< include research/_generated.md >}}

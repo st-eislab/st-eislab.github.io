@@ -1,0 +1,35 @@
+---
+title: "Lab Life"
+---
+
+[← Back to gallery](../index.qmd)
+
+::: {.photo-grid}
+![Year-end dinner 2026](20260905_endyear_party01.jpg){group="lab-life"}
+:::
+
+::: {.photo-grid}
+![Teacher's day 2026](20260905_teachersday (1).jpg){group="lab-life"}
+:::
+
+::: {.photo-grid}
+![Open Lab day Data Science Department 2026](20260506_open_lab01.jpg){group="lab-life"}
+:::
+
+<!--
+==========================================================
+HOW TO ADD PHOTOS TO THIS ALBUM
+1. Drop image files into this folder (gallery/lab-life/).
+2. Delete the "Photos coming soon" line above.
+3. Add one line per photo inside the photo-grid below,
+   using the lightbox group so photos open as a slideshow:
+
+::: {.photo-grid}
+![Optional caption](photo1.jpg){group="lab-life"}
+![Another caption](photo2.jpg){group="lab-life"}
+![](photo3.jpg){group="lab-life"}
+:::
+
+That's it — Quarto generates the grid and the lightbox.
+==========================================================
+-->

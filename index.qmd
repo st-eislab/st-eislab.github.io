@@ -1,0 +1,62 @@
+---
+title: "EIS Lab"
+pagetitle: "EIS Lab @ SeoulTech — Explainable Intelligent Systems"
+listing:
+  - id: latest-news
+    contents: news/20*.qmd
+    sort: "date desc"
+    type: default
+    max-items: 3
+    fields: [date, title, categories]
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+---
+
+::: {.hero-split}
+::: {.hero-text}
+<div class="hero-kicker">Explainable Intelligent Systems Lab · SeoulTech</div>
+
+# Explainable AI for Intelligent Decision Support
+
+<p class="hero-sub">We develop explainable and human-centered AI methods for reliable decision support across complex real-world domains.</p>
+
+<a class="btn-eis" href="research.qmd">Our research</a>
+<a class="btn-eis-outline" href="people/index.qmd">Meet the lab</a>
+:::
+::: {.hero-art}
+<!-- ![](assets/img/logo-icon.svg){fig-alt="EIS Lab cube logo"} -->
+![](assets/img/research/hero-eis-lab.png){fig-alt="EIS hero figure"}
+:::
+:::
+
+<div class="section-kicker">What we do</div>
+
+## Research directions
+
+{{< include research/_home.md >}}
+
+<!--
+TO ADD A PILLAR CARD: copy any <a class="pillar-card">...</a> block
+above (inside the html block). The grid adapts automatically to any
+number of cards — 3, 4, 5... no other change needed.
+Note: links inside this raw block must use .html, not .qmd.
+-->
+
+<div class="section-kicker">About us</div>
+
+## The lab
+
+The Explainable Intelligent Systems (EIS) Lab at Seoul National University of Science and Technology develops explainable and human-centered AI methods for industrial and energy systems. Our research combines interpretable machine learning, AI-generated explanations, process-aware analytics, and predictive modeling for manufacturing quality, solar power forecasting, and battery health estimation.
+
+We aim to create AI systems that are not only accurate, but also understandable, trustworthy, and useful for decision-making — bridging methodological research in explainable AI with practical decision-support problems in smart manufacturing and sustainable energy.
+
+<div class="section-kicker">Latest</div>
+
+## News
+
+::: {#latest-news}
+:::
+
+<p style="margin-top: 0.5rem;"><a href="news/index.qmd">All news →</a></p>

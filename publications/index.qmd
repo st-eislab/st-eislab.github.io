@@ -1,0 +1,11 @@
+---
+title: "Publications"
+toc: true
+toc-depth: 2
+---
+
+Publications of the EIS Lab and its principal investigator. For citation metrics, see [Google Scholar](https://scholar.google.com/citations?user=KjvxM5gAAAAJ).
+
+{{< include _manuscripts.md >}}
+
+{{< include _generated.md >}}

@@ -1,0 +1,39 @@
+# Current manuscripts are maintained separately from published BibTeX entries.
+# Empty optional fields are not rendered.
+
+submitted:
+  - title: "RCProb: Probabilistic rule extraction from classification tree ensembles"
+    venue: "Expert Systems with Applications"
+    submitted_date: "2026-09"
+    preprint: "https://doi.org/10.48550/arXiv.2604.25304"
+    #code:
+    quartile: "Q1"
+
+  - title: "Selecting Context for Rule-Grounded Explanation Generation: A Small Language Model Study in Injection Moulding Quality Prediction"
+    venue: "Processes"
+    submitted_date: "2026-08"
+    #preprint: 
+    #code:
+    quartile: "Q3"
+working:
+  - title: "Adaptive Physics-Guided Network for Cross-Cell State-of-Health Estimation Using Partial-Charging Electrochemical Impedance Spectroscopy"
+
+  - title: "Ontological Commitments in Knowledge Reuse for Expert Systems: A Preventive Framework"
+
+  - title: "Quantifying the Value of Operational NWP and Multisite Information for 24-96 h Wind Power Forecasting"
+
+  - title: "DyG-LA: Dynamic Graph Representation Learning via Linear Attention and Recurrent Matrix States"
+
+  - title: "TRACE: Transparent Agentic Framework for Natural Language Explanations in Smart Manufacturing"
+
+# Examples:
+# submitted:
+#   - title: "Paper title"
+#     venue: "Expert Systems with Applications"
+#     submitted_date: "2026-09"
+#     preprint: "https://arxiv.org/abs/..."
+#     code:
+#     quartile: "Q1"
+#
+# working:
+#   - title: "Tentative working-paper title"

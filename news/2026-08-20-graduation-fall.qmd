@@ -1,0 +1,16 @@
+---
+title: "Hayat and Jostin completed their master's degrees"
+date: 2026-08-20
+categories: [graduation, people]
+description: "EIS Lab congratulates Hayat Hassanpour and Jostin Jerico Rosal on completing their master's degrees at SeoulTech."
+image: ../assets/img/news/graduation-2026.jpg
+---
+
+EIS Lab congratulates **Hayat** and **Jostin** on completing their master's degrees at **Seoul National University of Science and Technology (SeoulTech)** on August 20, 2026.
+
+During their master's studies, they conducted research as members of the Explainable Intelligent Systems Lab:
+
+- **Hayat Hassanpour** — *DyG-LA: Dynamic Graph Representation Learning via Linear Attention and Recurrent Matrix States*
+- **Jostin Jerico Rosal** — *TRACE: Transparent Agentic Framework for Natural Language Explanations in Smart Manufacturing*
+
+We congratulate them on this achievement and wish them continued success in their future careers and research.

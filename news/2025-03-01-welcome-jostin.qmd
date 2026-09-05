@@ -1,0 +1,8 @@
+---
+title: "Welcome Jostin to the lab"
+date: 2025-03-01
+categories: [new members]
+description: "Jostin Jerico Rosal joins as a master's student."
+---
+
+**Jostin Jerico Rosal** joins the EIS Lab as a master's student, working on natural-language explanation generation for predictive models.

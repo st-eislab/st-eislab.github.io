@@ -1,0 +1,17 @@
+---
+title: "EIS Lab at the 2026 Spring Joint Conference"
+date: 2026-06-04
+categories: [conference, research]
+description: "EIS Lab members presented their research at the 2026 Spring Joint Conference in Gyeongju."
+image: ../assets/img/news/2026-spring-joint-conference.jpg
+---
+
+EIS Lab members **Hayat Hassanpour, Jostin Jerico Rosal, and Raksmey Pahn** participated in the **2026 Spring Joint Conference** held on **June 4–5, 2026**, at the **Gyeongju Hwabaek International Convention Center (HICO)** in Gyeongju, Korea.
+
+The conference, jointly organized by the Korean Society of Management Science, the Korean Institute of Industrial Engineers, and the Korea Society for Simulation, was held under the theme **“Decision Making and Optimization in the AI Era: Convergence, Expansion, and New Challenges.”**
+
+The following research was presented by EIS Lab members:
+
+- **Dynamic Graph Representation Learning for Link Prediction and Node Classification in DeFi Networks** — Hayat Hassanpour 
+- **Adaptive Physics-Gated Network for SOH Estimation from Partial Charging EIS Data of Lithium-Ion Batteries** — Phann Raksmey
+- **Transparent Agentic Framework for Natural Language Explanations in Smart Manufacturing** — Jostin Jerico Rosal

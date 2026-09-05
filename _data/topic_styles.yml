@@ -1,0 +1,16 @@
+# Central color families for topic badges. People entries only need the label.
+# Available groups: xai, manufacturing, energy, process, graph, method, neutral
+XAI: xai
+Agentic XAI: xai
+XAI Evaluation: xai
+XAI for GNNs: graph
+Smart Manufacturing: manufacturing
+Battery SOH: energy
+PV Forecasting: energy
+Process Mining: process
+Industrial IoT: process
+Dynamic GNN: graph
+Graph Learning: graph
+Transformers: method
+Multimodal AI: method
+Ontologies: neutral

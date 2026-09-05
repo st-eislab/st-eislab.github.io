@@ -1,10 +1,136 @@
+# EIS Lab people database
+#
+# MAINTENANCE RULES
+# - A person is CURRENT when `graduated` is blank.
+# - Add a graduation date (YYYY-MM) and the person moves automatically to Alumni.
+# - Optional fields may be left blank; empty fields are not rendered.
+# - `topics` are displayed as consistent colored badges. Add new badge labels to
+#   _data/topic_styles.yml if you want to control their color family.
+
+students:
+- name: Raksmey Pahn
+  category: phd
+  institution: SeoulTech
+  since: 2025-09
+  graduated: null
+  photo: assets/img/people/raksmey_portrait.jpg
+  photo_position: null
+  topics:
+  - Battery SOH
+  - XAI
+  thesis: null
+  current_position: null
+  email: null
+  github: https://github.com/tuyvanak
+  linkedin: null
+  website: null
+
+
 - name: Hayat Hassanpour
-  location: Univesity Here
-  degree: Master Student 
-  year: Fall semester 2024
+  category: masters
+  institution: SeoulTech
+  since: 2024-09
+  graduated: 2026-08
+  photo: assets/img/people/hayat_portrait.jpg
+  photo_position: null
+  topics:
+  - Dynamic GNN
+  - Graph Learning
+  thesis: 'DyG-LA: Dynamic Graph Representation Learning via Linear Attention and Recurrent Matrix States'
+  current_position: AI automation/AX engineer - HealHouse Dermatology 
+  email: mailto:hayyat@seoultech.ac.kr
+  github: https://github.com/hayat711
+  linkedin: null
+  website: https://hayatt.vercel.app/
 
 
-- name: Jostin
-  location: Univesity Here
-  degree: Master Student 
-  year: Fall semester 2024
+- name: Jostin Jerico Rosal
+  category: masters
+  institution: SeoulTech
+  since: 2025-03
+  graduated: 2026-08
+  photo: assets/img/people/jostin_portrait.jpg
+  photo_position: center 30%
+  topics:
+  - Agentic XAI
+  - XAI Evaluation
+  - Smart Manufacturing
+  thesis: 'TRACE: Transparent Agentic Framework for Natural Language Explanations in Smart Manufacturing'
+  current_position: null
+  email: mailto:rosal.jostinjerico@seoultech.ac.kr
+  github: https://github.com/jostinjerico
+  linkedin: https://www.linkedin.com/in/jostinjerico/
+  website: null
+
+
+- name: Makweya Tobias
+  category: masters
+  institution: SeoulTech
+  since: 2025-09
+  graduated: null
+  photo: assets/img/people/tobias_portrait.png
+  photo_position: null
+  topics:
+  - XAI for GNNs
+  thesis: null
+  current_position: null
+  email: null
+  github: https://github.com/MakweyaTobias
+  linkedin: null
+  website: null
+
+
+- name: Shikha Kumari
+  category: masters
+  institution: SeoulTech
+  since: 2025-09
+  graduated: null
+  photo: assets/img/people/shikha_portrait.jpg
+  photo_position: null
+  topics:
+  - PV Forecasting
+  - Multimodal AI
+  thesis: null
+  current_position: null
+  email: null
+  github: https://github.com/shikhak28
+  linkedin: null
+  website: null
+
+  
+- name: Daria Kolotikhina
+  category: masters
+  institution: SeoulTech
+  since: 2025-09
+  graduated: null
+  photo: assets/img/people/daria_portrait.jpg
+  photo_position: center 30%
+  topics:
+  - Process Mining
+  - Industrial IoT
+  - Smart Manufacturing
+  thesis: null
+  current_position: null
+  email: null
+  github: https://github.com/dariaklt
+  linkedin: null
+  website: null
+
+
+external:
+- name: Mario Lara
+  category: phd
+  institution: Universidad de San Carlos de Guatemala
+  since: 2024-03
+  graduated: null
+  photo: assets/img/people/mario_portrait.jpg
+  photo_position: null
+  topics:
+  - Ontologies
+  - Expert Systems
+  thesis: null
+  current_position: null
+  email: null
+  github: null
+  linkedin: null
+  website: null

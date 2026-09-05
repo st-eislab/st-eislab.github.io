@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render:
+    - python _scripts/build_people.py
+    - python _scripts/build_research.py
+    - python _scripts/build_manuscripts.py
+    - python _scripts/build_publications.py
+
+website:
+  title: "EIS Lab @ SeoulTech"
+  description: "Explainable Intelligent Systems Lab — explainable and human-centered AI for industrial and energy intelligence."
+  site-url: "https://eislab.seoultech.ac.kr"
+  favicon: assets/img/favicon.png
+  image: assets/img/logo-horizontal.png
+  open-graph: true
+
+  navbar:
+    logo: assets/img/logo-horizontal.svg
+    logo-alt: "EIS Lab"
+    logo-href: index.qmd
+    collapse-below: lg
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "People"
+        href: people/index.qmd
+      - text: "News"
+        href: news/index.qmd
+      - text: "Gallery"
+        href: gallery/index.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+    right:
+      - icon: github
+        href: https://github.com/st-eislab
+        aria-label: GitHub
+      - icon: envelope
+        href: "mailto:jobregon@seoultech.ac.kr"
+        aria-label: Email
+
+  page-footer:
+    left: |
+      **EIS Lab** — Explainable Intelligent Systems Laboratory<br>
+      Hyesung Hall Rm. 202, SeoulTech<br>
+      232 Gongneung-ro, Nowon-gu, Seoul, Republic of Korea<br>
+      <a href="https://en.seoultech.ac.kr" target="_blank"><img src="/assets/img/st_logo_eng.png" alt="SeoulTech" style="height:30px; margin-top:0.5rem;"></a>
+    center:
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "People"
+        href: people/index.qmd
+    right: |
+      © 2026 EIS Lab @ SeoulTech<br>
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/scss/eislab-light.scss]
+      dark: [cosmo, assets/scss/eislab-dark.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    lightbox: true
+    grid:
+      body-width: 1050px
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@500;600;700&display=swap" rel="stylesheet">
+
+execute:
+  freeze: auto

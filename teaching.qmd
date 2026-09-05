@@ -1,0 +1,50 @@
+---
+title: "Teaching"
+---
+
+Courses taught by Prof. Obregon at SeoulTech. Lecture slides for these courses are available on the [lecture slides site](https://jobregon1212.github.io/lecture-slides/){target="_blank"}.
+
+## ITM Programme
+
+::: {.course-card}
+<span class="course-badge">Spring</span>
+<span class="course-name">Computer Language</span>
+<p>Introduction to problem solving with programming, progressing from basic concepts to advanced object-oriented techniques in Java.</p>
+:::
+
+::: {.course-card}
+<span class="course-badge">Spring</span>
+<span class="course-name">Web Programming</span>
+<p>Foundations of web development, covering core principles of web technologies, interactive design, and application deployment.</p>
+:::
+
+::: {.course-card}
+<span class="course-badge">Fall</span>
+<span class="course-name">Business Process Management</span>
+<p>BPM concepts and methods, enabling students to model, analyze, and improve organizational processes using BPMN and process mining.</p>
+:::
+
+::: {.course-card}
+<span class="course-badge">Fall</span>
+<span class="course-name">Open Source Software</span>
+<p>The philosophy, practices, and tools of open source development, preparing students to contribute to and manage OSS projects effectively.</p>
+:::
+
+## Data Science Programme
+
+::: {.course-card}
+<span class="course-badge">Spring</span>
+<span class="course-name">Business Analytics</span>
+<p>Process mining techniques and tools to analyze, monitor, and improve business processes using real-world datasets.</p>
+:::
+
+::: {.course-card}
+<span class="course-badge">Fall</span>
+<span class="course-name">Data Analysis for Electronic Manufacturing</span>
+<p>Methods and phases of a complete data science project in electronic manufacturing, from data cleaning and understanding through modeling and evaluation.</p>
+:::
+
+<!--
+TO ADD A COURSE: copy any course-card block above and edit
+the badge (semester), name, and description.
+-->

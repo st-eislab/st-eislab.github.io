@@ -1,0 +1,17 @@
+# Funded/institutional projects.
+# Keep this list empty until you want projects to be public.
+# The Research page hides the section automatically when there are no entries.
+projects: []
+
+# Example (remove the # marks when needed):
+# projects:
+#   - title: Project title
+#     funder: National Research Foundation of Korea
+#     program: Program name
+#     role: Principal Investigator
+#     start: "2027-03"
+#     end: "2030-02"
+#     amount:
+#     status: active
+#     logo:
+#     url:
