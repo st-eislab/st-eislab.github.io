@@ -33,6 +33,14 @@ jobs:
       - name: Install site dependencies
         run: pip install -r requirements.txt
 
+      - name: Generate website content
+        run: |
+          mkdir -p people research publications
+          python _scripts/build_people.py
+          python _scripts/build_research.py
+          python _scripts/build_manuscripts.py
+          python _scripts/build_publications.py
+
       - name: Render website
         run: quarto render
 
