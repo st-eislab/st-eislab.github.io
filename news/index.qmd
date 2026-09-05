@@ -1,0 +1,38 @@
+---
+title: "News"
+listing:
+  contents: "20*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  fields: [date, title, categories, description]
+  feed: true
+page-layout: full
+---
+
+<!--
+==========================================================
+HOW TO ADD A NEWS ITEM
+Create a new file in news/ named YYYY-MM-DD-short-slug.qmd:
+
+---
+title: "Hayat successfully defends his master's thesis"
+date: 2026-06-20
+categories: [graduation]
+description: "One-line summary shown in the listing (optional)."
+image: ../assets/img/news/hayat-defense.jpg   # optional
+---
+
+Longer text of the news item here (optional). It becomes the
+item's own page. An image dropped in assets/img/news/ can be
+referenced in the front matter or the body.
+
+The filename must start with the date (20...) so the listing
+picks it up. Nothing else to configure.
+
+Common categories: new members, graduation, conference,
+publication, award, lab life.
+==========================================================
+-->

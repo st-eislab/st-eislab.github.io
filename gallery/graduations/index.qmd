@@ -1,0 +1,27 @@
+---
+title: "Graduations & Milestones"
+---
+
+[← Back to gallery](../index.qmd)
+
+::: {.photo-grid}
+![Jostin graduation Spring 2026](20260820_graduation02.jpg){group="graduations"}
+:::
+
+<!--
+==========================================================
+HOW TO ADD PHOTOS TO THIS ALBUM
+1. Drop image files into this folder (gallery/graduations/).
+2. Delete the "Photos coming soon" line above.
+3. Add one line per photo inside the photo-grid below,
+   using the lightbox group so photos open as a slideshow:
+
+::: {.photo-grid}
+![Optional caption](photo1.jpg){group="graduations"}
+![Another caption](photo2.jpg){group="graduations"}
+![](photo3.jpg){group="graduations"}
+:::
+
+That's it — Quarto generates the grid and the lightbox.
+==========================================================
+-->

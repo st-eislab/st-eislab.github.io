@@ -1,27 +1,329 @@
-- project_name: "Probabilistic Rule Extraction from Ensemble Trees"
-  goal: "Improve the speed of the RuleCOSI+ algorithm."
-  description: "This project focuses on extending the RuleCOSI+ algorithm to improve its speed and computational efficiency. Ensemble models, such as Random Forests or Gradient Boosted Trees, are powerful predictors, but they often lack interpretability. This project develops probabilistic methods to extract human-readable rules from these ensemble models while maintaining predictive performance. By enhancing the speed of rule extraction, this research aims to enable real-time applications of rule-based explanations in industries like manufacturing and healthcare. The project also explores optimizing trade-offs between accuracy and interpretability, ensuring the extracted rules are concise, actionable, and domain-relevant."
-  skills_used: ["Python", "Machine Learning", "Rule-based Systems"]
-  image_file: "rule_extraction.png"
-  show: true
+# EIS Lab research database
+#
+# `directions` define the stable research identity of the lab.
+# Set `homepage: true` for the three cards shown on the landing page.
+#
+# `topics` are concrete active/emerging research lines. Optional links are omitted
+# automatically when blank. Set `public: false` to keep a topic in this file
+# without publishing it on the website.
 
-- project_name: "SOH Estimation of Lithium Batteries"
-  goal: "Accurate SOH estimation for partially charged lithium batteries."
-  description: "Lithium-ion batteries are critical in electric vehicles and renewable energy storage systems. This project aims to accurately estimate the State of Health (SOH) of lithium batteries, particularly in scenarios where they are only partially charged. By utilizing electrochemical impedance spectroscopy (EIS) data, the project seeks to develop models that can detect subtle changes in battery health. Unlike traditional SOH estimation techniques that require full charging cycles, this method works with partial state-of-charge data, making it more practical for real-world applications. The research contributes to enhancing the longevity and reliability of lithium batteries by providing early warnings of degradation and supporting predictive maintenance strategies."
-  skills_used: ["Python", "Battery Modeling", "Data Analysis"]
-  image_file: "lithium_battery.png"
-  show: true
+directions:
+- id: explainable-human-centered-ai
+  title: Explainable & Human-Centered AI
+  homepage: true
+  icon: bi-lightbulb
+  style: primary
+  summary: Interpretable AI that combines probabilistic rule extraction, symbolic representations, and
+    agentic explanation generation for understandable decision support.
+  intro: Our methodological core focuses on AI systems whose decisions can be inspected and communicated.
+    Current work includes probabilistic rule extraction from tree ensembles and agentic explanation generation,
+    with an emphasis on useful, grounded explanations.
 
-- project_name: "Solar Power Generation Estimation"
-  goal: "Enhance solar power estimation using advanced AI models."
-  description: "Accurate solar power generation forecasting is essential for integrating renewable energy into the grid. This project combines state-of-the-art transformer-based machine learning models with high-resolution cloud sky imagery to improve prediction accuracy. By analyzing meteorological data alongside visual imagery, the model can identify cloud patterns and weather conditions that influence solar irradiance. This approach bridges the gap between image-based weather analysis and numerical modeling, enabling robust predictions under diverse environmental conditions. The results aim to enhance grid reliability, optimize energy storage usage, and support the broader adoption of solar energy."
-  skills_used: ["Transformers", "Image Processing", "Python"]
-  image_file: "solar_power.png"
-  show: true
+- id: smart-manufacturing-intelligence
+  title: Intelligent & Explainable Smart Manufacturing
+  homepage: true
+  icon: bi-gear-wide-connected
+  style: accent
+  summary: Predictive and explainable AI for manufacturing quality and decision support, including grounded
+    natural-language explanations.
+  intro: We develop AI methods for manufacturing systems, especially quality prediction and explanation.
+    Current work combines symbolic representations and language models to produce grounded explanations
+    for manufacturing decisions.
 
-- project_name: "Stacking LLM with Ensembles and Rulesets"
-  goal: "Generate adaptive text explanations for diverse users."
-  description: "Large Language Models (LLMs) like LLaMA are increasingly being used to generate natural language explanations. This project integrates LLMs with ensemble machine learning models and rule-based systems to create adaptive explanations tailored to various end users, such as operators, managers, or domain experts. The research explores how to align technical insights from ensemble models with human-friendly language while maintaining accuracy and relevance. By stacking ensembles and rulesets with LLMs, the system can dynamically adjust explanations based on the user's expertise level, context, and preferences. The goal is to enhance transparency and usability in complex decision-making systems, particularly in manufacturing and healthcare."
-  skills_used: ["Python", "Natural Language Processing", "Explainable AI"]
-  image_file: "llm_explanations.png"
-  show: true
+- id: sustainable-energy-intelligence
+  title: Sustainable Energy Intelligence
+  homepage: true
+  icon: bi-sun
+  style: neutral
+  summary: Battery health estimation and multimodal renewable-power forecasting for reliable, data-driven
+    energy systems.
+  intro: We apply machine learning to renewable-energy forecasting and energy-storage diagnostics. Current
+    work includes battery state-of-health estimation from EIS, multimodal solar-power forecasting, and
+    wind-power generation forecasting.
+
+- id: process-mining-process-intelligence
+  title: Process Mining & Process Intelligence
+  homepage: false
+  icon: bi-diagram-3
+  style: process
+  summary: Event-data analytics and process mining for understanding IoT-enabled manufacturing processes
+    and supporting process-aware decisions.
+  intro: We investigate how event data from connected industrial systems can reveal process behavior,
+    deviations, and opportunities for better monitoring and decision support.
+
+- id: graph-learning-explainability
+  title: Graph Learning & Explainability
+  homepage: false
+  icon: bi-share
+  style: graph
+  summary: Dynamic graph representation learning and explainability for evolving graph-structured data.
+  intro: We study learning from dynamic temporal graphs and methods that make graph neural models more
+    interpretable. Current work includes DYGLA and an emerging XAI-for-GNN research line.
+
+topics:
+- id: probabilistic-rule-extraction
+  title: Probabilistic Rule Extraction from Tree Ensembles
+  direction: explainable-human-centered-ai
+  status: active
+  public: true
+  summary: Compact probabilistic rules that preserve useful predictive information from complex tree ensembles
+    while improving interpretability and confidence awareness.
+  description: This line of research extends rule extraction from tree ensembles toward probabilistic
+    and calibrated symbolic models. The objective is to preserve useful predictive behavior while producing
+    compact rules whose confidence can be interpreted and assessed.
+  image: assets/img/research/rule-extraction.png
+  image_alt: Rule extraction from tree ensembles
+  keywords:
+  - probabilistic rules
+  - tree ensembles
+  - calibration
+  - symbolic explanations
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: trace
+  title: TRACE — Agentic Explanation Generation
+  direction: explainable-human-centered-ai
+  status: active
+  public: true
+  summary: Agentic generation and assessment of natural-language explanations grounded in symbolic rules,
+    domain knowledge, and user context.
+  description: >-
+    TRACE investigates how AI agents can generate and assess natural-language explanations
+    for manufacturing quality predictions. The research combines symbolic rules with
+    relevant domain knowledge and user context to address different explanation needs.
+    The goal is to produce explanations that remain consistent with predictive evidence
+    and are useful to users with different responsibilities and levels of technical expertise.
+  image: assets/img/research/trace.png
+  image_alt: Agentic explainable AI methods
+  keywords:
+  - agentic AI
+  - natural-language explanations
+  - grounded explanations
+  - XAI
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: human-centered-xai-evaluation
+  title: Human-Centered XAI Evaluation
+  direction: explainable-human-centered-ai
+  status: emerging
+  public: false
+  summary: Private research direction retained in the data file but intentionally not published yet.
+  description: Keep this record private until you decide the research direction should be disclosed publicly.
+  image: assets/img/research/xai-methods.png
+  image_alt: Explainable AI evaluation
+  keywords:
+  - XAI evaluation
+  - human-centered AI
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: ruleslm
+  title: RuleSLM — Grounded Natural-Language Explanations for Manufacturing Quality Prediction
+  direction: smart-manufacturing-intelligence
+  status: active
+  public: true
+  summary: Small language models that use symbolic rules and contextual information to explain
+    manufacturing quality predictions in natural language.
+  description: >-
+    RuleSLM investigates how small language models can communicate symbolic rules as
+    natural-language explanations of manufacturing quality predictions. We examine
+    how contextual knowledge and behavioral guidance influence the quality of the
+    generated explanations. The aim is to connect the inspectability of rule-based
+    models with accessible explanations, helping users understand predictions while
+    retaining a clear connection to the supporting rules.
+  image: assets/img/research/ruleslm.png
+  image_alt: Rule-grounded natural-language explanations for manufacturing quality prediction
+  keywords:
+  - small language models
+  - symbolic AI
+  - quality prediction
+  - smart manufacturing
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: battery-soh-partial-charge-eis
+  title: Battery SOH Estimation from Partial-Charge EIS
+  direction: sustainable-energy-intelligence
+  status: active
+  public: true
+  summary: Battery health estimation from partial-charge impedance measurements by combining
+    physical knowledge with data-driven learning.
+  description: >-
+    We investigate battery state-of-health estimation from electrochemical impedance
+    spectroscopy (EIS) measurements collected under partial-charge conditions. The
+    research combines physical knowledge with data-driven learning to support health
+    assessment when full-charge measurements are unavailable. Building on the lab's
+    earlier EIS-based work, we examine the reliability of estimation across different
+    charging conditions and the value of incorporating physical information into
+    predictive models.
+  image: assets/img/research/soh-pinn.png
+  image_alt: Battery state-of-health estimation from impedance data
+  keywords:
+  - battery SOH
+  - EIS
+  - partial charging
+  - battery diagnostics
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: multimodal-pv-forecasting
+  title: Multimodal Solar Power Forecasting
+  direction: sustainable-energy-intelligence
+  status: active
+  public: true
+  summary: Photovoltaic power forecasting that combines historical generation data, satellite
+    observations, and ground-based sky imagery.
+  description: >-
+    We investigate photovoltaic power forecasting using historical generation data,
+    satellite observations, and ground-based sky imagery. These complementary sources
+    provide information about power-generation patterns and atmospheric conditions
+    at different spatial scales. The research explores how combining these modalities
+    can help anticipate changes in solar-power output and examines their contribution
+    to forecasting performance under varying cloud and irradiance conditions.
+  image: assets/img/research/multi-modal-pv-forecasting.png
+  image_alt: Multimodal solar power forecasting
+  keywords:
+  - PV forecasting
+  - multimodal learning
+  - satellite imagery
+  - sky imagery
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: wind-power-forecasting
+  title: Wind Power Generation Forecasting
+  direction: sustainable-energy-intelligence
+  status: active
+  public: true
+  summary: Multi-site wind-power forecasting that examines how inputs and modeling choices affect
+    reliability and operational usefulness.
+  description: >-
+    This collaborative research investigates wind-power forecasting across multiple
+    sites and future time steps, with applications to wind farms in Guatemala. We
+    examine how historical generation, meteorological information, and modeling
+    choices influence forecast reliability. The aim is to connect predictive
+    performance with practical needs in wind-farm operation and planning, assessing
+    the usefulness of forecasts across different horizons.
+  image: assets/img/research/windpower-forecast.png
+  image_alt: Conceptual placeholder for wind power generation forecasting
+  keywords:
+  - wind power forecasting
+  - renewable energy
+  - time-series forecasting
+  - weather data
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: industrial-iot-process-mining
+  title: Process Mining for Industrial IoT
+  direction: process-mining-process-intelligence
+  status: active
+  public: true
+  summary: Exploratory research on process mining and counterfactual explanations for understanding
+    industrial processes and investigating undesirable outcomes.
+  description: >-
+    This emerging research explores process mining and counterfactual explanations
+    for industrial IoT and smart manufacturing. We investigate how event and sensor
+    information can help users understand process behavior, examine undesirable
+    outcomes, and explore alternative scenarios. The goal is to support root-cause
+    investigation and process improvement through explanations that connect observed
+    outcomes with the processes in which they occur.
+  image: assets/img/research/pm-iiot-smartfactory.png
+  image_alt: Conceptual placeholder for industrial process mining
+  keywords:
+  - process mining
+  - industrial IoT
+  - smart manufacturing
+  - event data
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: dygla
+  title: DYGLA — Dynamic Graph Learning Representation
+  direction: graph-learning-explainability
+  status: active
+  public: true
+  summary: Representation learning for evolving graphs to support tasks such as link prediction
+    and node classification.
+  description: >-
+    DYGLA investigates representation learning for graphs whose interactions and
+    relational structure evolve over time. The research focuses on capturing
+    connectivity and temporal information to support downstream tasks such as
+    link prediction and node classification. The goal is to learn representations
+    that account for changing relationships and interaction histories, supporting
+    prediction in dynamic graph settings.
+  image: assets/img/research/dygla.png
+  image_alt: Conceptual placeholder for dynamic graph learning
+  keywords:
+  - dynamic graphs
+  - temporal graphs
+  - representation learning
+  - graph neural networks
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null
+
+- id: xai-for-gnns
+  title: Explainable AI for Graph Neural Networks
+  direction: graph-learning-explainability
+  status: emerging
+  public: true
+  summary: Emerging research on explaining how graph neural networks use neighborhood information
+    to make predictions.
+  description: >-
+    This emerging research explores how predictions from graph neural networks can
+    be understood through the surrounding graph information they use. We investigate
+    the relevance of different neighborhoods and the extent of information
+    propagation needed for a prediction. The goal is to make graph-based learning
+    more interpretable by explaining which relational information matters and why
+    it is useful.
+  image: assets/img/research/gnn-xai.png
+  image_alt: Conceptual placeholder for explainable graph neural networks
+  keywords:
+  - XAI for GNNs
+  - graph explainability
+  - graph neural networks
+  - interpretable AI
+  paper: null
+  doi: null
+  preprint: null
+  code: null
+  dataset: null
+  project_url: null

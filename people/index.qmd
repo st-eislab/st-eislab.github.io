@@ -1,0 +1,24 @@
+---
+title: "People"
+toc: true
+toc-depth: 2
+---
+
+## Principal Investigator
+
+:::: {.pi-row}
+![](../assets/img/people/obregon_portrait.jpg){.pi-photo fig-alt="Portrait of Josue Obregon"}
+
+::: {.pi-details}
+**Dr. Josue Obregon** — Assistant Professor, ITM Programme, SeoulTech
+
+Research interests: explainable and human-centered AI, interpretable machine learning, smart manufacturing intelligence, and sustainable energy intelligence.
+
+Ph.D. Industrial & Management Systems Engineering, Kyung Hee University (2020). Office: Frontier Building Rm. 915.
+
+<span class="pi-links">[<i class="bi bi-envelope-fill"></i> Email](mailto:jobregon@seoultech.ac.kr) &nbsp; [<i class="bi bi-github"></i> GitHub](https://github.com/jobregon1212) &nbsp; [<i class="bi bi-mortarboard-fill"></i> Google Scholar](https://scholar.google.com/citations?user=KjvxM5gAAAAJ)</span>
+:::
+::::
+
+{{< include _generated.md >}}
+

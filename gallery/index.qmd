@@ -1,0 +1,37 @@
+---
+title: "Gallery"
+---
+
+Moments from the life of the EIS Lab.
+
+```{=html}
+<div class="album-grid">
+<a class="album-card" href="conferences/index.html">
+<div class="album-cover"><i class="bi bi-easel"></i></div>
+<div class="album-body">
+<h3>Conferences</h3>
+<p>Presentations, posters, and travels to academic venues.</p>
+</div>
+</a>
+<a class="album-card" href="lab-life/index.html">
+<div class="album-cover"><i class="bi bi-camera"></i></div>
+<div class="album-body">
+<h3>Lab Life</h3>
+<p>Seminars, dinners, outings, and everyday moments.</p>
+</div>
+</a>
+<a class="album-card" href="graduations/index.html">
+<div class="album-cover"><i class="bi bi-mortarboard-fill"></i></div>
+<div class="album-body">
+<h3>Graduations &amp; Milestones</h3>
+<p>Defenses, degrees, and lab achievements.</p>
+</div>
+</a>
+</div>
+```
+
+<!--
+TO ADD A NEW ALBUM: create a folder here (e.g. gallery/workshop-2026/),
+copy the index.qmd from any existing album into it, adjust the title,
+and add a new album-card block above pointing to it.
+-->

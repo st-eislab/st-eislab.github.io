@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <rect width="400" height="260" fill="#EEF4FA"/>
+  <g fill="none" stroke="#A6A8AB" stroke-width="3">
+    <circle cx="90" cy="80" r="14"/><circle cx="200" cy="60" r="14"/><circle cx="310" cy="95" r="14"/>
+    <circle cx="140" cy="180" r="14"/><circle cx="265" cy="190" r="14"/>
+    <line x1="103" y1="86" x2="127" y2="170"/><line x1="152" y1="172" x2="253" y2="184"/>
+    <line x1="211" y1="70" x2="299" y2="90"/><line x1="102" y1="74" x2="187" y2="63"/>
+    <line x1="277" y1="181" x2="302" y2="107"/>
+  </g>
+  <circle cx="200" cy="60" r="7" fill="#B4121B"/>
+  <circle cx="90" cy="80" r="7" fill="#003E7E"/>
+  <circle cx="140" cy="180" r="7" fill="#003E7E"/>
+  <text x="200" y="242" font-family="sans-serif" font-size="14" fill="#7A7D82" text-anchor="middle">Figure coming soon</text>
+</svg>

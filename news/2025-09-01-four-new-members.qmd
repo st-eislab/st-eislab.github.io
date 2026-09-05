@@ -1,0 +1,8 @@
+---
+title: "Four new members join the lab"
+date: 2025-09-01
+categories: [new members]
+description: "We welcome Raksmey, Tobias, Shikha, and Daria to the EIS Lab."
+---
+
+We are happy to welcome four new members to the EIS Lab: **Raksmey Pahn** (PhD), and **Makweya Tobias**, **Shikha Kumari**, and **Daria Kolotikhina** (Master's). Their work spans battery health analytics, solar power forecasting, and IoT process mining.

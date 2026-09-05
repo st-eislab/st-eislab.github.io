@@ -1,0 +1,8 @@
+---
+title: "Welcome Hayat, our first master's student"
+date: 2024-09-01
+categories: [new members]
+description: "Hayat Hassanpour becomes the first student of the EIS Lab."
+---
+
+**Hayat Hassanpour** joins the EIS Lab as its first master's student.
