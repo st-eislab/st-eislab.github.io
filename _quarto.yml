@@ -10,7 +10,7 @@ project:
 website:
   title: "EIS Lab @ SeoulTech"
   description: "Explainable Intelligent Systems Lab — explainable and human-centered AI for industrial and energy intelligence."
-  site-url: "https://eislab.seoultech.ac.kr"
+  site-url: "https://eis.seoultech.ac.kr"
   favicon: assets/img/favicon.png
   image: assets/img/logo-horizontal.png
   open-graph: true
